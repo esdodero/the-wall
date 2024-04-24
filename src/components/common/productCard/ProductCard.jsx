@@ -1,13 +1,18 @@
-import { Typography } from "@mui/material";
-const ProductCard = (props) => {
-  const { price, title, description } = props;
+import { ImageListItem, ImageListItemBar } from "@mui/material";
+import { Link } from "react-router-dom";
+
+const ProductCard = ({ title, description, price, img, id }) => {
   return (
-    <div>
-      <Typography variant="h4">{title}</Typography>
-      <Typography variant="h4">{description}</Typography>
-      <Typography avriant="h4">{price}</Typography>
-      <img src="" />
-    </div>
+    <Link to={`/itemDetail/${id}`}>
+      <ImageListItem key={id}>
+        <img
+          srcSet={`${img}?w=248&h=164&fit=crop&auto=format&dpr=2 2x`}
+          src={`${img}?w=248&h=164&fit=crop&auto=format`}
+          alt={title}
+          loading="lazy"
+        />
+      </ImageListItem>
+    </Link>
   );
 };
 

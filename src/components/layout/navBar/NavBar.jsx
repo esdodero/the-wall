@@ -1,4 +1,4 @@
-import { useState } from "react";
+import "./NavBar.css";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -6,42 +6,38 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import CartWidget from "../../common/cartWidget/CartWidget";
+import { Link } from "react-router-dom";
 
-const pages = ["Abstracto", "Fotografia", "Pop Art"];
+const pages = ["Abstracto", "Fotografia", "Pop Art", "Ilustracion", "Infantil"];
 
 function NavBar() {
-  const [categoria, setCategoria] = useState("Abstracto");
-  console.log(categoria);
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
+            className="logo"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
+              // fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            THE WALL
+            <Link to="/">THE WALL</Link>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+            className="categorias"
+          >
             {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={() => setCategoria(page)}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
+              <Link key={page} to={`category/${page}`}>
                 {page}
-              </Button>
+              </Link>
             ))}
           </Box>
           <Box sx={{ flexGrow: 0 }}>

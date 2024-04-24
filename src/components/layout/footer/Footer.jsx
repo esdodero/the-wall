@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <Box position="static">
-      <Typography>Footer</Typography>
+    <Box sx={{ width: "100%" }} className="footer">
+      <Typography variant="h7">Copyright The Wall - 2024</Typography>
     </Box>
   );
 };
