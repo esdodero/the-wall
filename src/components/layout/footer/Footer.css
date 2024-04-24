@@ -1,3 +1,14 @@
 .footer {
-  background-color: "peru";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #0f864f;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 5px;
 }

@@ -1,0 +1,22 @@
+.imageDetail {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 25px 50px 10px 100px;
+}
+.textDetail {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+
+.textDetail {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  padding: 25px 50px 75px 100px;
+}
