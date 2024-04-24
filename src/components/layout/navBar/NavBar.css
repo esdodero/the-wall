@@ -1,0 +1,35 @@
+.logo {
+  filter: drop-shadow(2px 4px 2px rgb(134, 134, 134));
+  a {
+    color: var(--color-text-2);
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  background-color: var(--bg-1);
+}
+
+.categorias a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.categorias a:hover {
+  text-decoration: none;
+  background-color: rgb(206, 206, 198);
+}
