@@ -1,14 +1,14 @@
 import { createTheme } from "@mui/material/styles";
-import { green, purple } from "@mui/material/colors";
+import { green } from "@mui/material/colors";
 
 export const themeClaro = createTheme({
   palette: {
     primary: {
       main: "#0f864f",
-      aternativo: "#b8fada",
+      alternativo: "#b8fada",
     },
     secondary: {
-      main: purple[500],
+      main: "#ffffff",
     },
   },
   components: {},

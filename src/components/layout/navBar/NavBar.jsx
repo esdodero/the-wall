@@ -1,14 +1,9 @@
 import "./NavBar.css";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
+import { AppBar, Box, Toolbar, Typography, Container } from "@mui/material";
 import CartWidget from "../../common/cartWidget/CartWidget";
 import { Link } from "react-router-dom";
 
-const pages = ["Abstracto", "Fotografia", "Pop Art", "Ilustracion", "Infantil"];
+const pages = ["Abstracto", "Fotografia", "Pop Art", "Infantil"];
 
 function NavBar() {
   return (

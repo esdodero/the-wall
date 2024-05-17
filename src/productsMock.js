@@ -1,26 +1,5 @@
 export const products = [
   {
-    id: 1,
-    title: "Cappadocia",
-    author: "ELeonora",
-    price: 40000,
-    stock: 12,
-    description: "Cappadocia",
-    category: "Fotografia",
-    img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234370/samples/balloons.jpg",
-  },
-  {
-    id: 2,
-    title: "Sabana Africana",
-    author: "ELeonora",
-    price: 26000,
-    stock: 12,
-    description: "Sabana Africana",
-    category: "Animales",
-    img: "https://res.cloudinary.com/dkcs0lbjf/video/upload/v1712234361/samples/elephants.jpg",
-  },
-  {
-    id: 3,
     title: "Breakfast",
     author: "ELeonora",
     price: 23400,
@@ -30,7 +9,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234371/samples/breakfast.jpg",
   },
   {
-    id: 4,
     title: "Bosque",
     author: "Juan Ventura",
     price: 35000,
@@ -40,7 +18,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234356/samples/landscapes/nature-mountains.jpg",
   },
   {
-    id: 5,
     title: "Montaña",
     author: "Juan Ventura",
     price: 64000,
@@ -50,7 +27,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234358/samples/landscapes/landscape-panorama.jpg",
   },
   {
-    id: 6,
     title: "Pigmentos",
     author: "Juan Ventura",
     price: 12800,
@@ -60,7 +36,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234355/samples/food/spices.jpg",
   },
   {
-    id: 7,
     title: "Perros",
     author: "Juan Ventura",
     price: 35000,
@@ -70,7 +45,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234351/samples/animals/three-dogs.jpg",
   },
   {
-    id: 8,
     title: "New York",
     author: "Vera Rod",
     price: 45000,
@@ -80,7 +54,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234352/samples/landscapes/architecture-signs.jpg",
   },
   {
-    id: 9,
     title: "Reno",
     author: "Vera Rod",
     price: 28000,
@@ -90,7 +63,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234346/samples/animals/reindeer.jpg",
   },
   {
-    id: 10,
     title: "Mar",
     author: "Vera Rod",
     price: 12800,
@@ -100,7 +72,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1712234353/samples/landscapes/beach-boat.jpg",
   },
   {
-    id: 11,
     title: "Azul y Rojo",
     author: "Victor Costa",
     price: 35000,
@@ -110,7 +81,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713893619/vitor_costa_5_vgumda.jpg",
   },
   {
-    id: 12,
     title: "Lineas y Circulos",
     author: "Victor Costa",
     price: 38000,
@@ -120,7 +90,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713893617/vitor_costa_6_chkrdr.jpg",
   },
   {
-    id: 13,
     title: "Lineas y Circulos II",
     author: "Victor Costa",
     price: 38000,
@@ -130,7 +99,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713893617/vitor_costa_2_ekknrq.jpg",
   },
   {
-    id: 14,
     title: "Formas Abstractas II",
     author: "Victor Costa",
     price: 38000,
@@ -140,7 +108,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713893617/vitor_costa_fnydq5.jpg",
   },
   {
-    id: 15,
     title: "Formas Abstractas III",
     author: "Victor Costa",
     price: 39000,
@@ -150,7 +117,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713893617/vitor_costa_4_maawb2.jpg",
   },
   {
-    id: 16,
     title: "Lineas y Circulos III",
     author: "Victor Costa",
     price: 38000,
@@ -160,7 +126,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713893616/vitor_costa_3_dk4w5w.jpg",
   },
   {
-    id: 17,
     title: "Baño nocturno",
     author: "Caro de la Hoz",
     price: 22900,
@@ -171,7 +136,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713911448/caro_de_la_hoz_wdgonw.jpg",
   },
   {
-    id: 18,
     title: "Frida retrato",
     author: "Dina Boland",
     price: 36300,
@@ -182,7 +146,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713911817/dina_boland_flwzu7.jpg",
   },
   {
-    id: 19,
     title: "Una Flor",
     author: "Roactis",
     price: 32400,
@@ -192,7 +155,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912044/roactis2_q9sn0a.jpg",
   },
   {
-    id: 20,
     title: "Luna Nueva",
     author: "Roactis",
     price: 32400,
@@ -202,7 +164,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912044/roactis3_ku1xyx.jpg",
   },
   {
-    id: 21,
     title: "Jungle",
     author: "Den Alicia",
     price: 32400,
@@ -212,7 +173,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912791/den_alicia_xiuzue.jpg",
   },
   {
-    id: 22,
     title: "Doodles",
     author: "Den Alicia",
     price: 32400,
@@ -222,7 +182,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912791/den_alicia_2_qacqn9.jpg",
   },
   {
-    id: 23,
     title: "Jungle II",
     author: "Den Alicia",
     price: 32400,
@@ -232,7 +191,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912807/den_alicia_3_k2y69z.jpg",
   },
   {
-    id: 24,
     title: "Amor",
     author: "Den Alicia",
     price: 32400,
@@ -242,7 +200,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912808/den_alicia_5_cbpxqz.png",
   },
   {
-    id: 25,
     title: "Boca",
     author: "Den Alicia",
     price: 32400,
@@ -252,7 +209,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912807/den_alicia_4_uvhuvp.png",
   },
   {
-    id: 26,
     title: "Bananas",
     author: "Den Alicia",
     price: 32400,
@@ -262,7 +218,6 @@ export const products = [
     img: "https://res.cloudinary.com/dkcs0lbjf/image/upload/v1713912823/den_alicia_6_flpwqm.jpg",
   },
   {
-    id: 27,
     title: "Magic Can",
     author: "Den Alicia",
     price: 36300,
