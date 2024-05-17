@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Box, Grid, Skeleton } from "@mui/material";
 import { db } from "../../../firebaseConfig";
+import slide from "../../../assets/images/slide.png";
 
 import { collection, getDocs, query, where, orderBy } from "firebase/firestore";
 
@@ -72,7 +73,19 @@ const ItemListContainer = () => {
     );
   }
 
-  return <ItemList items={items} error={error} />;
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      {!name && (
+        <Box
+          component="img"
+          src={slide}
+          alt="Header"
+          sx={{ width: "100%", height: "auto", display: "block" }}
+        />
+      )}
+      <ItemList items={items} error={error} />
+    </Box>
+  );
 };
 
 export default ItemListContainer;
